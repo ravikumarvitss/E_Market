@@ -179,6 +179,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
             return null;
+
         }
 
         @Override
@@ -187,6 +188,7 @@ public class MainActivity extends AppCompatActivity {
             return 2;
         }
 
+        //getting the page title
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position) {
