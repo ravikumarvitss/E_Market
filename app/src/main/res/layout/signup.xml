@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cust"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:background="@drawable/buttonbg"
+            android:text=" Customer "
+            android:textSize="17sp"
+            android:typeface="sans"
+            android:textAllCaps="false"
+            android:textColor="#ffff"
+            />
+        <Button
+            android:id="@+id/merch"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:background="@drawable/buttonbg1"
+            android:layout_marginLeft="30dp"
+            android:text=" Merchant "
+            android:textSize="17sp"
+            android:typeface="sans"
+            android:textAllCaps="false"
+            android:textColor="#ffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/user"
+            android:textSize="20dp"
+            android:theme="@style/EditTextTheme"
+            android:hint="Username"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mobil"
+            android:textSize="20dp"
+            android:theme="@style/EditTextTheme"
+            android:layout_marginTop="10dp"
+            android:hint="Mobile number"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emal"
+            android:textSize="20dp"
+            android:theme="@style/EditTextTheme"
+            android:layout_marginTop="10dp"
+            android:hint="Email"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passw"
+            android:textSize="20dp"
+            android:theme="@style/EditTextTheme"
+            android:layout_marginTop="10dp"
+            android:hint="Password"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/conpass"
+            android:textSize="20dp"
+            android:theme="@style/EditTextTheme"
+            android:layout_marginTop="10dp"
+            android:hint="Confirm Password"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/procd"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/buttonbg"
+        android:layout_marginLeft="30dp"
+        android:textSize="17sp"
+        android:typeface="sans"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:textColor="#ffff"
+        android:text="Proceed"/>
+    <TextView
+        android:id="@+id/skipp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:typeface="sans"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        />
+
+</LinearLayout>

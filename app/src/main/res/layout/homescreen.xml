@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#D0D3D4"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="0dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp">
+    <EditText
+        android:id="@+id/searchh"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Search products"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="15dp"
+        android:drawablePadding="15dp"
+        android:singleLine="true"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/searchiconn"
+        android:background="@drawable/edittextshape"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="115dp"
+             />
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/pager"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:text="Shop by category"/>
+
+<ListView
+    android:id="@+id/list1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp"
+    android:dividerHeight="15dp">
+
+</ListView>
+
+</LinearLayout>
